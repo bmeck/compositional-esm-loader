@@ -1,0 +1,36 @@
+{
+  "name": "@bradleymeck/compositional-esm-loader",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "main.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "import": "./loader.mjs"
+    },
+    "./example/log-hooks.mjs": {
+      "import": "./example/log-hooks.mjs"
+    },
+    "./example/time-hooks.mjs": {
+      "import": "./example/time-hooks.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmeck/compositional-esm-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmeck/compositional-esm-loader/issues"
+  },
+  "homepage": "https://github.com/bmeck/compositional-esm-loader#readme"
+}
