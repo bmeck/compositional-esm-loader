@@ -60,7 +60,7 @@ export let resolve = null;
 
 Currently there is not a cohesive trust model amongst loader composition.
 
-`getSource` and `transformSource` are disabled while some bugs are resolved.
+`getSource` and `transformSource` are patched to work with typed-arrays while a value to source text conversion bug is resolved. They work, but might have minor changes in this module and/or in node core.
 
 This is to be worked on.
 
